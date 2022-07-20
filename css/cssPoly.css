@@ -1,0 +1,108 @@
+@media screen and (max-width: 1170px) {
+  .navbar-header {
+      visibility: hidden;
+      width:0 !important;
+  }
+}
+.dark-logo {
+  height: 70px;
+}
+body, .subheader, .card-title, .card-subtitle, .tooltip, .popover {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+}
+th {
+  font-weight: 700 !important;
+}
+.profile-img-2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.search-listing li a {
+  color: #0275d8;
+}
+.search-listing li p {
+  font-size: 14px;
+  font-style: italic;
+}
+.search-listing li {
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .mini-sidebar .sidebar-nav #sidebarnav>li>ul {
+      position: absolute;
+      left: 60px;
+      top: 51.42px;
+      width: 200px;
+      z-index: 1001;
+      background: #e8eff0;
+      display: none;
+      padding-left: 1px;
+  }
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.posted_by {
+  font-size: 14px;
+  font-style: italic;
+}
+.green {
+  color: rgb(0, 128, 0);
+}
+.red {
+  color: rgb(255, 0, 0);
+}
+.blue {
+  color: rgb(0, 0, 255);
+}
+.orange {
+  color: rgb(255, 165, 0);
+}
+.dt-buttons {
+  margin-bottom: 5px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 400px;
+      margin: 1.75rem auto;
+  }
+}
+.error {
+  color: red;
+  margin-top: 3px;
+}
+.form-group {
+  margin-bottom: 0.5rem;
+}
+label {
+  margin-bottom: 0;
+}
+#btn_login {
+  margin-top: 10px;
+}
+/*.kt-content {*/
+  /*padding: 0;*/
+/*}*/
+#footer {
+  background: #192041;
+  color: #fff;
+  border-top: 10px solid #f7941d;
+  /*margin-top: 10px;*/
+  font-size:13px;
+}
+footer > div > div:nth-child(2) h6 {
+  text-decoration: underline;
+  color: #f7941d;
+}
+footer {
+  margin: 10px auto 0 auto;
+}
+.navbar {
+  margin-bottom: 150px;
+}
+.home-nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
